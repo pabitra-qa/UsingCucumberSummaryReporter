@@ -17,7 +17,7 @@
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cucumber.version>7.18.1</cucumber.version>
-        <cucumber.summary.reporter.version>1.0.0</cucumber.summary.reporter.version>
+        <cucumber.summary.reporter.version>1.0.1</cucumber.summary.reporter.version>
         <junit.platform.suite.version>1.9.2</junit.platform.suite.version>
         <surefire.plugin.version>3.1.2</surefire.plugin.version>
         <mvn.compiler.plugin.version>3.12.1</mvn.compiler.plugin.version>
