@@ -1,9 +1,10 @@
-package io.github.the_sdet.hooks;
+package com.example.hooks;
 
+import com.example.logger.Log;
 import io.cucumber.java.*;
-import io.github.the_sdet.logger.Log;
 
 import static io.github.the_sdet.adapter.CucumberSummaryReporter.registerTestUser;
+
 
 @SuppressWarnings("unused")
 public class Hook {
