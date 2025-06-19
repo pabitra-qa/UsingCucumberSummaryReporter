@@ -5,6 +5,8 @@ import io.cucumber.java.AfterAll;
 import io.cucumber.java.en.Then;
 import io.cucumber.plugin.event.Status;
 import io.github.the_sdet.adapter.CucumberSummaryReporter;
+import org.junit.Assert;
+import org.junit.Assume;
 
 import java.util.Map;
 
@@ -22,7 +24,7 @@ public class MySteps {
 
     @Then("Test Step One Feature Two")
     public void testStepOneFeatureTwo() {
-
+        Assert.fail();
     }
 
     @Then("Test Step Tow Feature Three")
@@ -35,6 +37,7 @@ public class MySteps {
 
     @Then("Test Step One Feature Three")
     public void testStepOneFeatureThree() {
+        Assume.assumeFalse(true);
     }
 
     @AfterAll
