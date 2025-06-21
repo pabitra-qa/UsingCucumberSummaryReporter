@@ -7,3 +7,10 @@ Feature: Test Homepage Navigation
 
   Scenario: Test Feature Three Scenario 2
     Then Test Step Tow Feature Three
+
+  Scenario Outline: Test Feature Three Scenario 3
+    Then Test Step "<user>" Feature Three
+    Examples:
+      | user    |
+      | pabitra |
+      | swain   |

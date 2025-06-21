@@ -6,13 +6,52 @@
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.the-sdet/cucumber-summary-reporter)](https://search.maven.org/artifact/io.github.the-sdet/cucumber-summary-reporter)
 [![javadoc](https://javadoc.io/badge2/io.github.the-sdet/cucumber-summary-reporter/javadoc.svg)](https://javadoc.io/doc/io.github.the-sdet/cucumber-summary-reporter)
 
-### Cucumber Summary Report
-<img src="src/test/resources/img/Cucumber-Summary-Reporter.jpeg" alt="Cucumber Summary Report"/>
 
-### Cucumber Summary Report Extended
-<img src="src/test/resources/img/Cucumber-Summary-Reporter-Extended.png" alt="Cucumber Summary Report Extended"/>
+## A Simple Library that generates a Cucumber Test Summary
 
+This library generates a summary report for Cucumber test results,
+which can be integrated as a plugin/adapter for Cucumber.
+The report provides a concise overview of test execution,
+making it easier to analyze test stats or distribute a simplified summary, for example, via email.
 
+### Cucumber Summary Report — All Pass - Scenario Wise Credentials
+<img src="src/test/resources/img/scenario-wise-cred.png" alt="Cucumber Summary Report - All Pass"/>
+
+### Cucumber Summary Report — All Pass Extended - Scenario Wise Credentials
+<img src="src/test/resources/img/scenario-wise-cred-extended.png" alt="Cucumber Summary Report - All Pass"/>
+
+### Cucumber Summary Report — All Pass - Feature Wise Credentials
+<img src="src/test/resources/img/feature-wise-cred.png" alt="Cucumber Summary Report - All Pass"/>
+
+### Cucumber Summary Report — All Pass Extended - Feature Wise Credentials
+<img src="src/test/resources/img/feature-wise-cred-extended.png" alt="Cucumber Summary Report - All Pass"/>
+
+### Cucumber Summary Report — Mixed Result (Pass & Fail)
+<img src="src/test/resources/img/pass-fail.png" alt="Cucumber Summary Report - Pass & Fail"/>
+
+### Cucumber Summary Report — Mixed Result Extended (Pass & Fail)
+<img src="src/test/resources/img/pass-fail-extended.png" alt="Cucumber Summary Report - Pass & Fail"/>
+
+### Cucumber Summary Report — Mixed Result (Pass & Fail & Skip)
+<img src="src/test/resources/img/pass-fail-skip.png" alt="Cucumber Summary Report - Pass & Fail"/>
+
+### Cucumber Summary Report — Mixed Result Extended (Pass & Fail & Skip)
+<img src="src/test/resources/img/pass-fail-skip-extended.png" alt="Cucumber Summary Report - Pass & Fail & Skip"/>
+
+### Cucumber Summary Report — Filter (Exclude Skip)
+<img src="src/test/resources/img/filter-exclude-skip.png" alt="Cucumber Summary Report - Filter (Exclude Skip)"/>
+
+### Cucumber Summary Report — Filter (Only Fail)
+<img src="src/test/resources/img/filter-only-fail.png" alt="Cucumber Summary Report - Filter (Only Fail)"/>
+
+### Cucumber Summary Report — Filter (Exclude Pass)
+<img src="src/test/resources/img/filter-exclude-pass.png" alt="Cucumber Summary Report - Filter (Exclude Pass)"/>
+
+### Cucumber Summary Report — Tablet View
+<img src="src/test/resources/img/tablet.png" alt="Cucumber Summary Report - Tablet View"/>
+
+### Cucumber Summary Report — Mobile View
+<img src="src/test/resources/img/mobile.png" alt="Cucumber Summary Report - Mobile View"/>
 
 ### Authors
 
@@ -24,7 +63,7 @@
 
 ### 🚀 About Me
 
-I'm a dedicated and passionate Software Development Engineer in Test (SDET) trying to help the community in focusing in
+I'm a dedicated and passionate Software Development Engineer in Test (SDET) trying to help the community in focusing on 
 building great automation frameworks rather than writing the same utilities again and again and again...
 
 ### Connect With Me
